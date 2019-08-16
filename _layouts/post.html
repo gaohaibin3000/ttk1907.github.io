@@ -1,81 +1,37 @@
 ---
 layout: default
 ---
-<div class="post">
-  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="post__header section-padding--double">
-      <div class="grid-small">
-        <h2 itemprop="name headline">{{ page.title }}</h2>
-
-        <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
-      </div>
+<div class="row">
+  <div id="myArticle" class="col-sm-9">
+    <div class="post-area post">
+      <header>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+      <hr>
+      <article>
+        {{content}}
+      </article>
+      <hr>
+      <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a><a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a></div>
+      <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
     </div>
-
-    {% if page.image %}
-      <div class="post__img">
-        <div>
-          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
-        </div>
-      </div>
-    {% endif %}
-
-    <div class="post__content section-padding">
-      <div class="grid">
-        <div id="markdown" itemprop="articleBody">
-          {{content}}
-        </div>
-
-        {% include share.html %}
-      </div>
+    <div class="post-area post comment">
+      <!-- 多说评论框 start -->
+      
+      <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="gaohaoyang.github.io{{ page.url }}"></div>
+      
+      <!-- 多说评论框 end -->
     </div>
+  </div>
 
-    <!-- Everything inside the #author tags pulls data from the author -->
-    {% if page.author %}
-      <div class="section-padding--none">
-        <div class="grid">
-          <hr class="sep"/>
-        </div>
+  <div id="content" class="col-sm-3">
+    <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> -->
+    <div id="myAffix" class="shadow-bottom-center hidden-xs" >
+      <div class="categories-list-header">
+        Content
       </div>
-
-      <div class="section-padding">
-        <div class="grid-small">
-          {% for author in site.author %}
-            <span class="post__author">Posted by {% if author["name"] == page.author and author["url"] %}<a href="{{ author['url'] }}" title="More By {{ page.author }}">{% endif %}{{ page.author }}{% if author["name"] == page.author and author["url"] %}</a>{% endif %}</span>
-            {% if author["name"] == page.author %}
-              <p class="post__bio">{{ author["bio"] }}</p>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    {% include disqus.html %}
-
-  </article>
+      <div class="content-text"></div>
+    </div>
+  </div>
 </div>
-
-<!-- Links to Previous/Next posts -->
-{% assign relatedTag = page.tags | first %}
-{% if relatedTag %}
-  <section class="related section-padding">
-    <div class="grid-xlarge">
-      <h2 class="related__title">Related</h2>
-      <div class="related__container">
-        {% for post in site.tags[relatedTag] limit: 3 %}
-          <article class="related__post">
-            <a class="related__link" href="{{ post.url | absolute_url }}">
-              {% if post.image %}
-                <figure class="related__img">
-                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
-                </figure>
-              {% endif %}
-              <div>
-                <h2 class="related__text">{{ post.title }}</h2>
-              </div>
-            </a>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-{% endif %}
