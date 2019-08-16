@@ -36,10 +36,17 @@ ubuntu系统安装。
 ###   问题2.在登陆界面无限循环，只有nvidia显卡可用解决方法
 
 ​解决方法：这就是由于没有及时安装显卡驱动造成的后果，下面我们来安装nvidia显卡驱动，共有三个方法。
+
 1.首先查看硬件型号，在终端输入：ubuntu-drivers devices ，可以看到自己显卡的型号，然后安装推荐版本的驱动。在终端输入：sudo ubuntu-drivers autoinstall 这样就可以自动安装了，如果显示软件包没有依赖的话，在终端输入：
+
 sudo dpkg --add-architecture i386
+
 ​sudo apt update
+
 ​sudo apt install build-essential libc6:i386
+
 这是一些nvidia的依赖软件，然后重复第一步自动安装就可以了
+
 2.添加PPA第三方软件仓库安装最新版本，首先添加PPA软件仓库:sudo add-apt-repository ppa:graphics-drivers/ppa,需要输入用户密码，按提示按下Enter健。更新软件索引：sudo apt update,接下来的步骤同方法1
+
 3.第三种方法是从nvidia官网下载最新版驱动手动安装，但是我并不会。
