@@ -22,8 +22,8 @@ type: page
 ## 友情链接
 
 [小明同学](https://victor981221.github.io/) \|
-[曹小羊同学](https://cangyang7.github.io/) \| 
-[大旭](http://nineberg.gitub.io/) \|
+[曹小羊同学](https://caoyang7.github.io/) \| 
+[大旭](https://nineberg.gitub.io/) \|
 
 ## Comments
 
