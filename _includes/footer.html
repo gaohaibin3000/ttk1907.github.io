@@ -26,6 +26,7 @@
         </p>
     </div>
 </footer>
+{% if my_page.type == 'page' %}
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 !function(){
 function n(n,e,t){
@@ -73,3 +74,4 @@ u=s.concat([y]),
 setTimeout(function(){i()},100)
 }();
 </script>
+{% endif %}
