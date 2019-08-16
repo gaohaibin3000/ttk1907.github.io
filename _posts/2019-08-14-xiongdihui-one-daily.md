@@ -5,11 +5,18 @@ categories: daily
 tags: 兄弟会 效率 markdown
 author: ttk1907
 ---
+* content
+{:toc}
+
+安装ubuntu系统以及连接本地网络
+
+
+
+
+
 
 # day1
-
 ## 一.做启动盘
-
 
 ​ 找一个空的u盘，用工具做成启动盘。
 
