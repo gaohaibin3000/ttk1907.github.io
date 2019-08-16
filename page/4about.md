@@ -25,6 +25,6 @@ type: page
 [曹小羊同学](https://caoyang7.github.io/) \| 
 [大旭](https://nineberg.github.io/) \|
 
-## Comments
+
 
 {% include comments.html %}
