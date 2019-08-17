@@ -9,7 +9,10 @@ tags: daily jeklly
 * content
 {:toc}
 
-通过jeklly搭建自己的博客
+day2日报
+
+1.通过jeklly搭建自己的博客
+
 
 
 
