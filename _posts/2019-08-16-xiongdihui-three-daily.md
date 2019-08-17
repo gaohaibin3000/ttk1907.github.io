@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DAY3 daily"
-date:   2018-08-16
+date:   2019-08-16
 categories: daily
 tags: daily blog
 ---

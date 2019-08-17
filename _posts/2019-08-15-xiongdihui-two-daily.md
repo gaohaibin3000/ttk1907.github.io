@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DAY2 daily"
-date:   2018-08-15
+date:   2019-08-15
 categories: daily
 tags: daily jeklly
 ---
