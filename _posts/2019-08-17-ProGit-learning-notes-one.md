@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pro Git 学习笔记"
+title:  "Pro Git 学习笔记1"
 date:   2019-08-17
 categories: note
 tags: Git note 
