@@ -93,7 +93,7 @@ n个...
 ![这是一个帅比](/assets/tupian.jpg)
 ```
 效果:
-![这是一个帅比](assets/tupian.jpg)
+![这是一个帅比](/assets/tupian.jpg)
 
 2. 网络图片
 示例:
@@ -131,8 +131,10 @@ fun();
 ```
 
 效果如下：
+
 单行代码
 `create database hero`
+
 代码块
 ```
 function fun(){
@@ -143,18 +145,15 @@ fun();
 
 ### 12.流程图
 示例:
+
+
 ![流程图代码](/assets/liuchengtu.png)
 
+
 效果:
-```flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+
+
+![流程图效果](/assets/liuchengtuxiaoguo.png)
 
 
 
