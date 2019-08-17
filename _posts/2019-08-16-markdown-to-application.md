@@ -4,9 +4,17 @@ title:  "Markdown"
 date:   2019-08-16 
 categories: markdown
 tags: markdown
-excerpt: markdown一些简单的格式
-mathjax: true
 ---
+
+* content
+{:toc}
+
+morkdown的一些简单格式
+
+
+
+
+
 
 # Markdown 基本格式
 ## 1.基本概念
