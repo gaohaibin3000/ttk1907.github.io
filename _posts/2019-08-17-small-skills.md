@@ -9,7 +9,7 @@ tags: skills
 * content
 {:toc}
 
-小明同学整理的一些小技能
+[小明同学](https://victor981221.github.io)整理的一些小技能
 
 
 
