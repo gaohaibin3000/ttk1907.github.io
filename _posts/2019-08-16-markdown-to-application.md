@@ -2,7 +2,7 @@
 layout: post
 title:  "Markdown"
 date:   2019-08-16 
-categories: markdown technology
+categories: markdown
 tags: markdown
 excerpt: markdown一些简单的格式
 mathjax: true

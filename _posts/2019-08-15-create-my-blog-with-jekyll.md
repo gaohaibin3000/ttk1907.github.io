@@ -2,8 +2,8 @@
 layout: post
 title:  "Jekyll 搭建静态博客"
 date:   2019-08-15 22:14:54
-categories: technology
-tags:  jekyll
+categories: jeklly 
+tags:  jekyll blog
 ---
 
 * content

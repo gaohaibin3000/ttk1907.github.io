@@ -3,7 +3,7 @@ layout: post
 title:  "DAY2 daily"
 date:   2018-08-15
 categories: daily
-tags: blog
+tags: daily jeklly
 ---
 
 * content

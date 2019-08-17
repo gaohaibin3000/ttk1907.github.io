@@ -2,7 +2,7 @@
 layout: post
 title:  "ubuntu系统的安装"
 date:   2019-08-16 22:14:54
-categories: technology
+categories: system
 tags:  ubuntu system
 ---
 

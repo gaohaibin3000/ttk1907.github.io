@@ -3,7 +3,6 @@ layout: post
 title:  "入坑兄弟会第一天"
 categories: daily
 tags: 兄弟会 markdown
-author: ttk1907
 ---
 * content
 {:toc}
