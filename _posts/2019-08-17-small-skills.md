@@ -18,7 +18,7 @@ tags: skills
 
 
 <!-- ![燕十八](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-18swallows.png) -->
-[一些小技能](https://victor981221.github.io/2019/08/various-skills/)
+[一些小技能](https://victorfengming.github.io/2019/08/various-skills/)
 
 
 
