@@ -47,7 +47,7 @@ git push -f -u origin master
     * 去网易云音乐网站找代码，在指定的地方插入
 
 ## 3.小技巧
-一些边边角角的小技巧，小明博客
+一些边边角角的小技巧，[小明博客](https://victor981221.github.io/2019/08/various-skills/)
 
 
 
