@@ -24,6 +24,10 @@ type: page
 [小明同学](https://victor981221.github.io/) \|
 [曹小羊同学](https://caoyang7.github.io/) \| 
 [大旭](https://nineberg.github.io/) \|
+[小甲同学](https://raoweijiapng.github.io/) \|
+[新阳](https://17824909342.github.io/) \|
+[何洁](https://hejie615.github.io/) \|
+
 
 
 
