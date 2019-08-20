@@ -11,7 +11,7 @@ tags: daily
 
 day6日报
 
-1. 学习git和pro git  37%
+1. 学习git和pro git
 
 2. 设置ssh协议
 
@@ -36,7 +36,8 @@ day6日报
 
 第三步：克隆`git clone git@github.com:ttk1907/ttk1907.github.io.git`，用ssh协议重新克隆库。
 
-
+### 3.添加远程仓库
+`git remote add [自己起得名字] [原作者项目地址]`
 
 
 
