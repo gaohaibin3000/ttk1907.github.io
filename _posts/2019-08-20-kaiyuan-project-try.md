@@ -78,7 +78,7 @@ git pull [远程仓库名称] [分支名称]
 ## 十.pull request
 1. 你的修改已经push到了你的github下了，但是你要向原作者请求合并到原项目中，如果原作者合并了，也就意味着你是此项目的贡献者了。
 2. 到你的github上点击如下按钮
-![拉取请求](https://images0.cnblogs.com/blog/569491/201411/141227453501556.png)
+![拉取请求](/assets/拉取请求.png)
 3. 当然你也可以选择test分支，，然后点击项目右边的创建一个pull request。提交完pull request，原作者就会看到你的合并请求，采不采纳就是他的事了
 
 
