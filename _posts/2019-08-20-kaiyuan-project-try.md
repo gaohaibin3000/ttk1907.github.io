@@ -68,11 +68,11 @@ git checkout -b test
 
 ## 八.同步远程仓库
 因为是合作开发项目，这时远程仓库中的内容有可能已经发生了变化，所以我们需要将远程仓库中的内容和本地分支中的内容进行合并
-1. pull方式是直接把远程仓库的主干和分支全合在一起拉过来，相当于fetch+merge
+方法1. pull方式是直接把远程仓库的主干和分支全合在一起拉过来，相当于fetch+merge
 ```
 git pull [远程仓库名称] [分支名称]
 ```
-2. git fetch 相当于是从远程获取最新到本地，不会自动merge，如下指令：
+方法2. git fetch 相当于是从远程获取最新到本地，不会自动merge，如下指令：
 ```
 git fetch orgin master:tmp //将远程仓库master分支获取最新，在本地建立tmp分支
 git diff tmp //将当前分支和tmp进行对比
