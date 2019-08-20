@@ -11,17 +11,15 @@ tags: daily
 
 day6日报
 
-1.学习git和pro git  
+1. 学习git和pro git  37%
 
-2.设置ssh协议
+2. 设置ssh协议
 
-
-
-
+3. 添加远程仓库
 
 
 
-<!-- ![燕十八](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-18swallows.png) -->
+
 # DAY6
 
 ## 今日任务
