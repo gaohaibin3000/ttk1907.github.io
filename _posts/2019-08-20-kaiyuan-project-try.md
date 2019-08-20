@@ -20,7 +20,6 @@ tags: project
 
 
 <!-- ![燕十八](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-18swallows.png) -->
-# 合作完成开源项目流程
 
 ## 一.首先需要在github上注册账号并登陆
 
