@@ -74,9 +74,9 @@ git pull [远程仓库名称] [分支名称]
 ```
 方法2. git fetch 相当于是从远程获取最新到本地，不会自动merge，如下指令：
 ```
-git fetch orgin master:tmp //将远程仓库master分支获取最新，在本地建立tmp分支
-git diff tmp //将当前分支和tmp进行对比
-git merge origin/master //合并tmp分支到当前分支
+git fetch [远程仓库名称] master:tmp //将远程仓库master分支获取最新，在本地建立tmp分支，将最新的改动存入tmp分支
+git diff tmp //将当前分支和tmp进行对比，可以看出修改了什么
+git merge origin/tmp //合并tmp分支到当前分支
 ```
 
 ## 九.将修改push到我们的github上
