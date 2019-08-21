@@ -9,7 +9,7 @@ tags: daily
 * content
 {:toc}
 
-day7日报
+day7
 
 1. 继续学习git和pro git
 
