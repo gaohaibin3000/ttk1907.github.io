@@ -2,7 +2,7 @@
 layout: post
 title:  "一些有用的小技能"
 date:   2019-08-17
-categories: small skills
+categories: skills
 tags: skills
 ---
 
