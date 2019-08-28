@@ -23,31 +23,9 @@ JS学习笔记
 
 ## 2.JS快速入门
 1. JavaScript代码可以直接嵌在网页的任何地方，不过通常我们都把JavaScript代码放到`<head>`中:  
-```html
-<html>
-<head>
-  <script>
-    alert('Hello, world');
-  </script>
-</head>
-<body>
-  ...
-</body>
-</html>
-```
 由`<script>...</script>`包含的代码就是JavaScript代码，它将直接被浏览器执行
 
-2. 第二种方法是把JavaScript代码放到一个单独的.js文件，然后在HTML中通过`<script src="..."></script>`引入这个文件：
-```
-<html>
-<head>
-  <script src="/static/js/abc.js"></script>
-</head>
-<body>
-  ...
-</body>
-</html>
-```
+2. 第二种方法是把JavaScript代码放到一个单独的.js文件，然后在HTML中通过`<script src="..."></script>`引入这个文件：  
 这样，`/static/js/abc.js`就会被浏览器执行。  
 把JavaScript代码放入一个单独的.js文件中更利于维护代码，并且多个页面可以各自引用同一份.js文件。  
 可以在同一个页面中引入多个.js文件，还可以在页面中多次编写`<script> js代码... </script>`，浏览器按照顺序依次执行。
