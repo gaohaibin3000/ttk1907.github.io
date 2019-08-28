@@ -22,8 +22,8 @@ JS学习笔记
 由于网景公司希望能在静态HTML页面上添加一些动态效果，于是叫Brendan Eich这哥们在两周之内设计出了JavaScript语言。你没看错，这哥们只用了10天时间。
 
 ## 2.JS快速入门
-1. JavaScript代码可以直接嵌在网页的任何地方，不过通常我们都把JavaScript代码放到`<head>`中:
-```
+1. JavaScript代码可以直接嵌在网页的任何地方，不过通常我们都把JavaScript代码放到`<head>`中:  
+```html
 <html>
 <head>
   <script>
