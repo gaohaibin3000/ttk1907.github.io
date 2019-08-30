@@ -23,7 +23,7 @@ day16日报
 
 
 
-# DAY15
+# DAY16
 ## 1.学习JS
 1. 学习了JS的定时器部分
 定时器部分由两个方法组成，`setTimeout()`和`setInterval()`,setTimeout的用法是推迟一段时间执行代码块或函数，serInterval的用法是间隔一定的时间无限循环代码块或函数。
