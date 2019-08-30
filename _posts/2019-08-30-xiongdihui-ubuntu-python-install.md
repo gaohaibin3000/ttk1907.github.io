@@ -31,7 +31,6 @@ sudo apt install software-properties-common
 2. 接下来，将deadsnakes PPA添加到源列表：
 ```
 sudo add-apt-repository ppa:deadsnakes/ppa
-
 ```
 
 3. 启用存储库后，使用以下命令安装Python 3.7：
