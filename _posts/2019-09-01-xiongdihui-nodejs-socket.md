@@ -94,6 +94,7 @@ var oText = document.getElementById('text'),
         }
 ```
 输出消息
+
 ```
 socket.on('message',function (mes) {
             //输出服务端发送过来得消息
