@@ -115,7 +115,8 @@ HTML DOM 模型被结构化为对象树：
 
 对象的 HTML DOM 树
 ![对象的 HTML DOM 树](https://www.w3school.com.cn/i/ct_htmltree.gif)
-通过这个对象模型，JavaScript 获得创建动态 HTML 的所有力量：
+
+3. 通过这个对象模型，JavaScript 获得创建动态 HTML 的所有力量：
     * JavaScript 能改变页面中的所有 HTML 元素
     * JavaScript 能改变页面中的所有 HTML 属性
     * JavaScript 能改变页面中的所有 CSS 样式
