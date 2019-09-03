@@ -35,9 +35,10 @@ JS学习笔记2
 <button onclick="this.innerHTML=Date()">现在的时间是？</button>
 ```
 2. 常见的事件
-<img src="/assets/JSbiaoge.png" alt="JS常用事件表格">
 
+<img src="/home/ttk/ttk1907.github.io/assets/JSbiaoge.png" alt="JS常用事件表格">
 
+3. 
 
 
 
