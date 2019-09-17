@@ -41,11 +41,7 @@ _variable.sass
     transform:$a;
 }
 ```
-
-调用的时候需要引入一下
-```
-@include transform(属性值);
-```
+调用的时候需要引入一下`@include transform(属性值);`
 
 5. 继承
 首先定义一个父类，然后在想要用的地方继承
