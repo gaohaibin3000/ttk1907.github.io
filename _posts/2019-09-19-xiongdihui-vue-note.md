@@ -71,8 +71,8 @@ computed:
 而computed只执行对应的方法，调用时方法名花括号里不加小括号
 ```
 
-8. `v-if` `v-for`
-```
+8. `v-if` +`v-for`
+```vue
 v-if="属性名"
 <li v-for="x in 数组名">
     {{x}}
