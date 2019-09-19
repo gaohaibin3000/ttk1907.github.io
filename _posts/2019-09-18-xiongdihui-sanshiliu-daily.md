@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DAY35 daily"
+title:  "DAY36 daily"
 date:   2019-09-18
 categories: daily
 tags: daily
