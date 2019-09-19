@@ -73,13 +73,11 @@ computed:
 
 8. `v-if` +`v-for`
 
-```
+<code>
 v-if="属性名"
-<li v-for="x in 数组名">
-    \{\{x\}\}
-</li>
-```
-
-
+\<li v-for="x in 数组名">
+    {{x}}
+\</li>
+</code>
 
 
