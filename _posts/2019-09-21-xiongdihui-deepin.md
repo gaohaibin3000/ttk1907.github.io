@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vue学习笔记"
+title:  "Deepin系统天坑"
 date:   2019-09-21
 categories: deepin
 tags: deepin
@@ -26,7 +26,7 @@ Deepin系统天坑
 3. 解决方案：
     * 安装闭源驱动
     * 然后配置双显卡
-    * 具体请看deepin官方文档[https://wiki.deepin.org/wiki/%E6%98%BE%E5%8D%A1#Intel_.26_NVIDIA](https://wiki.deepin.org/wiki/%E6%98%BE%E5%8D%A1#Intel_.26_NVIDIA)
+    * 具体请看<a src='https://wiki.deepin.org/wiki/%E6%98%BE%E5%8D%A1#Intel_.26_NVIDIA'>deepin官方文档</a>
 
 
 
