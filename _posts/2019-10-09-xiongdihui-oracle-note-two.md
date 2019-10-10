@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Oracle基础学习笔记1"
-date:   2019-10-08
+title:  "Oracle基础学习笔记2"
+date:   2019-10-09
 categories: note
 tags: note
 ---
@@ -9,7 +9,7 @@ tags: note
 * content
 {:toc}
 
-Oracle基础学习笔记1
+Oracle基础学习笔记2
 
 
 
@@ -36,8 +36,8 @@ Oracle基础学习笔记1
     * 字符串 substr(列|字符串,开始索引,[长度])  进行字符串的截取,如果没有规定长度,则一直截取到最后
     * 字符串 replace(列|字符串,旧内容,新内容) 将指定字符串的数据替换成新内容
 5. 数值函数:
-    * 数字 round(列|数字|[小数位])   实现数据的四舍五入,小数位可以设置
-    * 数字 trunc(列|数字|[小数位])  实现数据的截取,不进位 
+    * 数字 round(列 数字 [小数位]) 实现数据的四舍五入,小数位可以设置
+    * 数字 trunc(列|数字|[小数位]) 实现数据的截取,不进位 
     * 数字 mod(列|数字|[小数位])   求模
 
 ## 第二节课1:多表查询
@@ -79,10 +79,10 @@ where (e.sal between s.LOSAL and s.hisal) and (e.deptno = d.deptno);
 
 ## 第二节课3: 数据集合操作
 之前都属于多张数据表的关联操作,但是数据的集合操作主要负责连接的是查询结果.提供四种操作符:union.union all.intsect.minus 
-    * union:合并查询,不显示重复的数据
-    * union all: 合并查询,显示重复的数据
-    * intsect:返回相同的数据部分,相当于交集
-    * minus:第一个查询减去第二个查询,相当于差集  
+* union:合并查询,不显示重复的数据
+* union all: 合并查询,显示重复的数据
+* intsect:返回相同的数据部分,相当于交集
+* minus:第一个查询减去第二个查询,相当于差集  
 
 
 
