@@ -30,6 +30,9 @@ Oracle基础学习笔记4
 1. where子句:子查询一般会返回单行单列.单行多列.多行单列数据
 	1. where子句的作用是进行数据行的筛选操作的.
 	2. 查询出低于公司平均工资的雇员信息
+	3. any:与in的作用相同.>any就是比any的最小值大,`<any就是比any最大的值要小`
+	4. all:>all就是比all的最大值要大,`<all就是比all最小值要小`
+
 ```
 select * 
 from emp 
@@ -40,12 +43,11 @@ sal<(
  	);
 
 ```
-	3. any:与in的作用相同.>any就是比any的最小值大,`<any就是比any最大的值要小`
-	4. all:>all就是比all的最大值要大,`<all就是比all最小值要小`
-
+	
 2. having子句:子查询会返回单行单列,同时表示要使用统计函数
 3. from子句:子查询返回多行多列数据(表结构)
 	1. 查询每个部门名称、位置、部门人数 
+
 ```
 统计出部门编号.名称.位置
 select d.dname,d.deptno,d.loc
@@ -62,6 +64,7 @@ from dept d,(
 	group by deptno) t
 where d.deptno=t.deptno(+)
 ```	
+
 4. select子句:返回单行单列,一般不使用(强烈不建议)
 5. 多表查询可以实现统计,子查询也能实现统计,那种方式好呢?为了更好的解释这个问题,假设将数据表中的数据扩大100倍,即:此时假设emp表有1400条记录,而dept表有400条记录
 	1. 使用多表查询及分组统计:
@@ -80,6 +83,7 @@ where d.deptno=t.deptno(+)
 ## 第二节课:复杂查询
 ### 练习题
 1. 列出薪金高于在部门30工作的所有员工的薪金的员工姓名和薪金、部门名称、部门人数
+
 ```
 部门30最高的薪金
 select max(sal)
@@ -103,7 +107,8 @@ where e.sal>(
 	where deptno=30) and e.deptno=d.deptno and e.deptno=t.deptno
 ```
 
-2. 列出与"SCOTT"从事相同工作的所有员工及部门名称,部门人数,领导姓名 
+2. 列出与"SCOTT"从事相同工作的所有员工及部门名称,部门人数,领导姓名
+
 ```
 需要emp统计员工,需要dept统计部门名称,emp统计领导姓名,emp统计部门人数
 
@@ -168,6 +173,7 @@ where e.job=(
 ```
 
 3. 列出薪金比'SMITH'或'ALLEN'多的所有的员工的编号、姓名、部门名称、其领导姓名,部门人数,平均工资,最高及最低工资
+
 ```
 select e.empno,e.ename,d.dname,m.ename leader,a.count,a.avg,a.max,a.min
 from emp e,dept d,emp m,(
@@ -228,6 +234,7 @@ from emp
 2. 例子:查询emp表的第一行记录:select * from emp where rownum=1(只有第一行好使)
 3. 取出前n行的记录:select * from emp where rownum<=5
 4. 取出6到10行的记录:先取出10行,去掉前五行
+
 ```
 select * 
 from (
