@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "redis基础学习笔记"
+title:  "redis基础学习笔记1"
 date:   2019-10-14
 categories: note
 tags: note
@@ -9,7 +9,7 @@ tags: note
 * content
 {:toc}
 
-redis基础学习笔记
+redis基础学习笔记1
 
 
 
