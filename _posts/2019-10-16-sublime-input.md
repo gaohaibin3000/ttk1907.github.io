@@ -2,25 +2,20 @@
 layout: post
 title:  "关于SublimeText3输入法候选窗口不能跟随光标位置的解决方案"
 date:   2019-10-16
-categories: note
-tags: note
+categories: problem
+tags: problem
 ---
 
 * content
 {:toc}
 
-redis基础学习笔记2
+sublime小瑕疵
 
 
 
 
-### 起步
-很多新手朋友使用sublime,它是一个开源免费和轻量级的编辑器
-
-但是在使用的过程中,可能会遇到SublimeText3默认不支持输入法跟随光标，这在输入中文的时候看起来不方便。
-
-今天小编就教大家解决这个问题
-
+## sublime小瑕疵
+今天使用sublime时，遇到SublimeText3默认不支持输入法跟随光标，特别不方便。
 
 进入`SublimeText3`在上面菜单栏里`Perferences`点击`PackageControl`，这样就会自动安装一个可支持插件的终端窗口。
 
@@ -35,13 +30,15 @@ redis基础学习笔记2
 
 <p>我们需要手动添加一个包 就能解决这个问题</p>
 
-<p>第一步：下载<strong>IMESupport </strong>插件</p>
+## 第一步
+1. 下载`IMESupport`插件
 
 <p><strong>Github传送门</strong>：<a href="https://github.com/zcodes/IMESupport" rel="nofollow" data-token="0dce66f1378bbdf8a96f5c646cf34dce">https://github.com/zcodes/IMESupport</a>&nbsp;</p>
 
 <p>如果你是用下载，下载后解压，注意双层文件夹的问题（两个同名文件夹，去掉外面的一个）。</p>
 
-<p>第二步：<strong>放到package包下</strong>，这里必须手动添加依赖，不然不会生效</p>
+## 第二步
+1. 放到package包下，这里必须手动添加依赖，不然不会生效
 
 <p><img alt="" class="has" height="99" src="https://img-blog.csdnimg.cn/20190220143321812.png" width="765"></p>
 
