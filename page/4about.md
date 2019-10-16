@@ -21,7 +21,7 @@ type: page
 
 ## 友情链接
 
-[小明同学](https://victorvictorfengming.github.io/) \|
+[小明同学](https://victorfengming.github.io/) \|
 [曹小羊同学](https://caoyang7.github.io/) \| 
 [大旭](https://nineberg.github.io/) \|
 [小甲同学](https://raoweijiapng.github.io/) \|
