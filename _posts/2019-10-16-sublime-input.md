@@ -30,15 +30,13 @@ sublime小瑕疵
 
 <p>我们需要手动添加一个包 就能解决这个问题</p>
 
-## 第一步
-1. 下载`IMESupport`插件
+第一步: 下载`IMESupport`插件
 
 <p><strong>Github传送门</strong>：<a href="https://github.com/zcodes/IMESupport" rel="nofollow" data-token="0dce66f1378bbdf8a96f5c646cf34dce">https://github.com/zcodes/IMESupport</a>&nbsp;</p>
 
 <p>如果你是用下载，下载后解压，注意双层文件夹的问题（两个同名文件夹，去掉外面的一个）。</p>
 
-## 第二步
-1. 放到package包下，这里必须手动添加依赖，不然不会生效
+第二步: 放到package包下，这里必须手动添加依赖，不然不会生效
 
 <p><img alt="" class="has" height="99" src="https://img-blog.csdnimg.cn/20190220143321812.png" width="765"></p>
 
