@@ -34,7 +34,7 @@ redis基础学习笔记2
 11. 删除所有数据：`flushdb`
 12. 清空所有数据：`flushall `
 
-[直接看课件吧](file:///D:/database/Redis/redis%E6%95%B0%E6%8D%AE%E5%BA%93-%E8%AF%BE%E4%BB%B6-v1/day5/py-NoSQL-18.4.23/index.html)
+# 直接看课件吧
 
 
 
