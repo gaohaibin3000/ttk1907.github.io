@@ -2,8 +2,8 @@
 layout: post
 title:  "开源项目参加流程"
 date:   2019-08-20
-categories: project
-tags: project
+categories: Git
+tags: Git
 ---
 
 * content

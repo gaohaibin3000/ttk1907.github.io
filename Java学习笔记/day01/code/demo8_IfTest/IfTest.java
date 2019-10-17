@@ -1,10 +1,10 @@
 /*
- Á·Ï°£ºÌáÊ¾ÓÃ»§ÊäÈëÁ½¸öÕýÕûÊý£¬Ê¹ÓÃif·ÖÖ§½á¹¹ÕÒµ½×î´óÖµ²¢´òÓ¡³öÀ´
+ ç»ƒä¹ ï¼šæç¤ºç”¨æˆ·è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°ï¼Œä½¿ç”¨ifåˆ†æ”¯ç»“æž„æ‰¾åˆ°æœ€å¤§å€¼å¹¶æ‰“å°å‡ºæ¥
  
- ÊµÏÖ²½Öè£º
-	1.ÌáÊ¾ÓÃ»§ÊäÈëÁ½¸öÕýÕûÊý
-	2.¸³¸ø±äÁ¿a£¬b
-	3.ÓÃif·ÖÖ§½á¹¹ÅÐ¶Ï×î´óÖµ²¢´òÓ¡
+ å®žçŽ°æ­¥éª¤ï¼š
+	1.æç¤ºç”¨æˆ·è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°
+	2.èµ‹ç»™å˜é‡aï¼Œb
+	3.ç”¨ifåˆ†æ”¯ç»“æž„åˆ¤æ–­æœ€å¤§å€¼å¹¶æ‰“å°
  */
 
 import java.util.Scanner;
@@ -12,31 +12,31 @@ import java.util.Scanner;
 public class IfTest{
     public static void main(String[] args){
 
-	//1.ÌáÊ¾ÓÃ»§ÊäÈëÁ½¸öÕýÕûÊý
-	System.out.println("ÇëÊäÈëÁ½¸öÕýÕûÊý");
+	//1.æç¤ºç”¨æˆ·è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°
+	System.out.println("è¯·è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°");
 
-	//2.¸³¸ø±äÁ¿a£¬b
+	//2.èµ‹ç»™å˜é‡aï¼Œb
 	Scanner sc = new Scanner(System.in);
 	// int a = sc.nextInt();
 	int b = sc.nextInt();
 	
-	//3.ÓÃif·ÖÖ§½á¹¹ÅÐ¶Ï×î´óÖµ²¢´òÓ¡
+	//3.ç”¨ifåˆ†æ”¯ç»“æž„åˆ¤æ–­æœ€å¤§å€¼å¹¶æ‰“å°
 	/*
 	if(a>b){
-	System.out.println("×î´óÖµÊÇ£º"+a);
+	System.out.println("æœ€å¤§å€¼æ˜¯ï¼š"+a);
 	}
 	if(a<b){
-	System.out.println("×î´óÖµÊÇ£º"+b);
+	System.out.println("æœ€å¤§å€¼æ˜¯ï¼š"+b);
 	}
 	if(a==b)
-	{System.out.println("Á½ÊýÏàµÈ");}
+	{System.out.println("ä¸¤æ•°ç›¸ç­‰");}
 	*/
 	
 	int max = sc.nextInt();
 	if(b>max){
 	    max = b;	
 	}
-	System.out.println("×î´óÖµÊÇ£º"+max);
+	System.out.println("æœ€å¤§å€¼æ˜¯ï¼š"+max);
 	
     }
 }

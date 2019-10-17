@@ -1,17 +1,17 @@
 /*
- * ÏîÄ¿Ãû³Æ : ±àĞ´µÚÒ»¸öJava³ÌĞò
- * ÏîÄ¿¹¦ÄÜ : ´òÓ¡Ò»¾ä»°
- * ×÷    Õß : Ğ¡Âí¸ç
- * °æ    ±¾ : v1.0
- * Ëù ÓĞ Õß : ttk1907
- * ±¸    ×¢ : Ñ§Ï°Java´Ó´òÓ¡Hello,World¿ªÊ¼
+ * é¡¹ç›®åç§° : ç¼–å†™ç¬¬ä¸€ä¸ªJavaç¨‹åº
+ * é¡¹ç›®åŠŸèƒ½ : æ‰“å°ä¸€å¥è¯
+ * ä½œ    è€… : å°é©¬å“¥
+ * ç‰ˆ    æœ¬ : v1.0
+ * æ‰€ æœ‰ è€… : ttk1907
+ * å¤‡    æ³¨ : å­¦ä¹ Javaä»æ‰“å°Hello,Worldå¼€å§‹
  */
 
-public class HelloWorld/*ÀàÃû*/{
-    /*ÀàÌå*/
-    public static void main/*Ö÷·½·¨,ÊÇ³ÌĞòÈë¿Ú*/(String[] args) {/*·½·¨Ìå*/
+public class HelloWorld{
     
-    	System.out.println("ÎÒ¾Í²»´òÓ¡Hello,World!!!");
+    public static void main(String[] args) {
+    
+    	System.out.println("Hello,World!!!");
     }
 }
 

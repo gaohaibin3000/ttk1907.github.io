@@ -1,17 +1,17 @@
 /*
- 获取用户输入的字符赋给变量名
+ 鑾峰彇鐢ㄦ埛杈撳叆鐨勫瓧绗﹁祴缁欏彉閲忓悕
  */
 
 import java.util.Scanner;
 
 public class VarIO{
     public static void main(String[] args){
-	/*声明变量*/
+	/*澹版槑鍙橀噺*/
 	// String name;
 	// int age;
-	/*提示用户输入*/	
-	System.out.println("请输入姓名和年龄");
-	/*获取用户输入的姓名和年龄赋给变量*/
+	/*鎻愮ず鐢ㄦ埛杈撳叆*/	
+	System.out.println("脟毛脢盲脠毛脨脮脙没潞脥脛锚脕盲");
+	/*鑾峰彇鐢ㄦ埛杈撳叆鐨勫鍚嶅拰骞撮緞璧嬬粰鍙橀噺*/
 	Scanner sc = new Scanner(System.in);
 	String name = sc.next();
 	int age = sc.nextInt();
