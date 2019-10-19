@@ -3,7 +3,7 @@ layout: post
 title:  "关于SublimeText3输入法候选窗口不能跟随光标位置的解决方案"
 date:   2019-10-16
 categories: problem
-tags: problem
+tags: sublime
 ---
 
 * content

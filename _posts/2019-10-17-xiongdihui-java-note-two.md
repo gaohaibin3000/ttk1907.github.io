@@ -3,7 +3,7 @@ layout: post
 title:  "Java基础学习第二天"
 date:   2019-10-17
 categories: Java
-tags: note
+tags: Java note
 ---
 
 * content

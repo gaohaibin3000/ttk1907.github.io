@@ -2,7 +2,7 @@
 layout: post
 title:  "数据库使用过程中的小问题"
 date:   2019-10-11
-categories: oracle
+categories: problem
 tags: oracle
 ---
 

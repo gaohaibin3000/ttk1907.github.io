@@ -2,8 +2,8 @@
 layout: post
 title:  "Bootstrap学习笔记"
 date:   2019-09-17
-categories: note
-tags: note
+categories: Bootstrap
+tags: Bootstrap note
 ---
 
 * content

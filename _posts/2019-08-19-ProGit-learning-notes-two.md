@@ -2,7 +2,7 @@
 layout: post
 title:  "Pro Git 学习笔记2"
 date:   2019-08-19
-categories: note
+categories: Git
 tags: Git note 
 ---
 

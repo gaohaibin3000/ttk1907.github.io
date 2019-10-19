@@ -2,8 +2,8 @@
 layout: post
 title:  "基于nodejs和socket实现聊天室"
 date:   2019-09-01
-categories: note
-tags: note
+categories: Node.js
+tags: Node.js note
 ---
 
 * content

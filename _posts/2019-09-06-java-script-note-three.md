@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "JS学习笔记3"
+title:  "JS学习笔记4"
 date:   2019-09-06
-categories: note
-tags: note
+categories: JS
+tags: JS note
 ---
 
 * content
 {:toc}
 
-JS学习笔记3
+JS学习笔记4
 
 
 

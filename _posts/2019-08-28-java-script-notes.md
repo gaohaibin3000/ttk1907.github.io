@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "JS学习笔记"
+title:  "JS学习笔记1"
 date:   2019-08-28
-categories: note
-tags: note
+categories: JS
+tags: JS note
 ---
 
 * content

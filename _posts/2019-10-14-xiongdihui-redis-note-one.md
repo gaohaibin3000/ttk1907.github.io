@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "redis基础学习笔记1"
+title:  "Redis基础学习笔记1"
 date:   2019-10-14
-categories: note
-tags: note
+categories: Redis
+tags: Redis note
 ---
 
 * content

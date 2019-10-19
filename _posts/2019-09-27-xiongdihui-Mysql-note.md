@@ -2,8 +2,8 @@
 layout: post
 title:  "MySQL学习资料"
 date:   2019-09-27
-categories: note
-tags: note
+categories: MySQL
+tags: MySQL note
 ---
 
 * content

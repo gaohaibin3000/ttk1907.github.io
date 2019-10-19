@@ -2,8 +2,8 @@
 layout: post
 title:  "Vue学习笔记"
 date:   2019-09-19
-categories: note
-tags: note
+categories: Vue
+tags: Vue note
 ---
 
 * content

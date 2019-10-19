@@ -2,7 +2,7 @@
 layout: post
 title:  "Deepin系统天坑"
 date:   2019-09-21
-categories: deepin
+categories: problem
 tags: deepin
 ---
 

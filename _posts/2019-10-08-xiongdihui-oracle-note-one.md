@@ -2,8 +2,8 @@
 layout: post
 title:  "Oracle基础学习笔记1"
 date:   2019-10-08
-categories: note
-tags: note
+categories: Oracle
+tags: Oracle note
 ---
 
 * content

@@ -2,8 +2,8 @@
 layout: post
 title:  "Sass学习笔记"
 date:   2019-09-16
-categories: note
-tags: note
+categories: Sass
+tags: Sass note
 ---
 
 * content

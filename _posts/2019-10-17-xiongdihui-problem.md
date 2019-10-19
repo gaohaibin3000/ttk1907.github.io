@@ -3,7 +3,7 @@ layout: post
 title:  "将记事本默认编码设为UTF-8的方法"
 date:   2019-10-17
 categories: problem
-tags: oracle
+tags: txt
 ---
 
 * content

@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "html/css学习笔记"
+title:  "HTML/CSS学习笔记"
 date:   2019-08-30
-categories: note
-tags: note html
+categories: HTML
+tags: note HTML
 ---
 
 * content
 {:toc}
 
-html/css学习笔记
+HTML/CSS学习笔记
 
 
 
@@ -19,8 +19,8 @@ html/css学习笔记
 
 
 
-# html/css学习笔记
-## html标签
+# HTML/CSS学习笔记
+## HTML
 1. div标签：分节，使html页面更有可读性
 2. a标签：添加跳转链接，锚
 3. form标签：向数据库中传输数据
@@ -28,13 +28,13 @@ html/css学习笔记
 5. p标签：定义一个段落
 6. select标签：定义一个下拉列表
 
-## css标签
-### 引入css
+## CSS标签
+### 引入CSS
 1. 引入css,行间样式：直接在`div`标签中的`style`里写
 2. 引入css,页面标签：在`head`中直接写`style`标签，在里面修改css
 3. 引入css,外部css文件：在`head`中添加`link`标签，在`link`标签里写`css`文件地址
 
-### css选择器
+### CSS选择器
 1. id选择：`id='abc'`，css中应该写`#abc{}`，这样就选择上了,`id`只能一对一
 2. class选择：`class=demo`，css中应该写`.demo{}`，这样就选择上了，`class`可以多对多
 3. 标签选择器：想选什么直接写上标签就行，对所有这个标签都进行修改，比如`div{}`

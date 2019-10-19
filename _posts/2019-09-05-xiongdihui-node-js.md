@@ -2,8 +2,8 @@
 layout: post
 title:  "node.js socket命令含义"
 date:   2019-09-05
-categories: note
-tags: note
+categories: Node.js
+tags: Node.js note
 ---
 
 * content

@@ -3,7 +3,7 @@ layout: post
 title:  "Java面向对象第一天"
 date:   2019-10-18
 categories: Java
-tags: note
+tags: Java note
 ---
 
 * content
