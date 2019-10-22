@@ -1,7 +1,7 @@
 public class Singleton{
-    private static Singleton(){}
+    private Singleton(){}
 
-    private Singleton sin = new Singleton();
+    private static Singleton sin = new Singleton();
 
     public static Singleton getInstance(){
         return sin;
