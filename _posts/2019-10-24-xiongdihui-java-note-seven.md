@@ -24,9 +24,8 @@ tags: Java note
 ## Java深入篇--核心类库--第2天
 ### String类的常用方法(重中之重、练熟、记住)
 1. charAt(int i)：获取下标为i的字符，返回char字符
-2. length()：获取字符串的长度
-
-```
+2. length()：获取字符串的长度  
+    ```
 面试题：使用两种方法实现将字符串"12345"转换为整数12345并打印
 
 方式一:使用Interger类中的parseInt方法进行转换即可
@@ -40,7 +39,7 @@ int res = 0;
 for (int i = 0; i<str2.length() ;i++){
     res = res*10 + (str2.charAt(i)-'0');
 }
-```
+    ```
 
 3. boolean contains(CharSequences)：用于判断当前字符串是否包含参数指定的内容
 4. String toLowerCase()：返回字符串的小写形式
@@ -56,7 +55,7 @@ for (int i = 0; i<str2.length() ;i++){
 2. 其中StringBuffer类从jdk1.0开始存在，该类支持线程安全，因此访问的效率比较低
 3. 其中StringBuilder类从jdk1.5开始存在，该类不支持线程安全，访问的效率比较高
 4. 常用方法
-```
+    ```
 1.public StringBuffer append(String s)
 将指定的字符串追加到此字符序列。
 
@@ -71,7 +70,7 @@ for (int i = 0; i<str2.length() ;i++){
 
 5.replace(int start, int end, String str)
 使用给定 String 中的字符替换此序列的子字符串中的字符。
-```
+    ```
 
 ### 日期相关的类(查手册会用即可)
 1. Date类：java.util.Date类用于描述特定的瞬间，可以精确到毫秒
