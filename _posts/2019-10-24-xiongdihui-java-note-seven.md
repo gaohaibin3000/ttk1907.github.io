@@ -55,8 +55,7 @@ for (int i = 0; i<str2.length() ;i++){
 2. 其中StringBuffer类从jdk1.0开始存在，该类支持线程安全，因此访问的效率比较低
 3. 其中StringBuilder类从jdk1.5开始存在，该类不支持线程安全，访问的效率比较高
 4. 常用方法
-
-    ```
+```
 1.public StringBuffer append(String s)
 将指定的字符串追加到此字符序列。
 
@@ -71,7 +70,7 @@ for (int i = 0; i<str2.length() ;i++){
 
 5.replace(int start, int end, String str)
 使用给定 String 中的字符替换此序列的子字符串中的字符。
-    ```
+```
 
 ### 日期相关的类(查手册会用即可)
 1. Date类：java.util.Date类用于描述特定的瞬间，可以精确到毫秒
