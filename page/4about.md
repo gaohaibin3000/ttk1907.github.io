@@ -21,12 +21,18 @@ type: page
 
 ## 友情链接
 
-[小明同学](https://victorfengming.github.io/) \|
-[曹小羊同学](https://caoyang7.github.io/) \| 
+[小明](https://victorfengming.github.io/) \|
+[曹小羊](https://caoyang7.github.io/) \| 
 [大旭](https://nineberg.github.io/) \|
-[小甲同学](https://raoweijiapng.github.io/) \|
-[新阳](https://17824909342.github.io/) \|
-[何洁](https://hejie615.github.io/) \|
+[甲哥](https://raoweijiapng.github.io/) \|
+[何杰](https://hejie615.github.io/) \|
+[鑫哥](https://yangxin19970404.github.io/) \|
+[鹏鹏](https://zhengyupengzz.github.io/) \|
+[阳哥](https://1978413822.github.io/) \|
+[健健](https://qijian160.github.io/) \|
+[佳兴](https://xjx19970831.github.io/) \|
+[小斌](https://tongzebin.github.io/) \|
+[杰宝](https://jiesangqaq.github.io/) \|
 
 
 
