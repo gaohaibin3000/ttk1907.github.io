@@ -24,23 +24,7 @@ tags: Java note
 ## Java深入篇--核心类库--第2天
 ### String类的常用方法(重中之重、练熟、记住)
 1. charAt(int i)：获取下标为i的字符，返回char字符
-2. length()：获取字符串的长度  
-    ```
-面试题：使用两种方法实现将字符串"12345"转换为整数12345并打印
-
-方式一:使用Interger类中的parseInt方法进行转换即可
-String str2 = new String("12345");
-int ia = Interger.parseInt(str2);
-
-方式二:取出字符串中的每个字符并转换为证书数据再合并起来
-'1'-48 => 1  '2'-48 =>2  
-'1'-'0'=>1   '2'-'0' =>2  '3'-'0'=>3
-int res = 0;
-for (int i = 0; i<str2.length() ;i++){
-    res = res*10 + (str2.charAt(i)-'0');
-}
-    ```
-
+2. length()：获取字符串的长度
 3. boolean contains(CharSequences)：用于判断当前字符串是否包含参数指定的内容
 4. String toLowerCase()：返回字符串的小写形式
 5. String toUpperCase()：返回字符串的大写形式
@@ -50,11 +34,28 @@ for (int i = 0; i<str2.length() ;i++){
 9. str.indexOf():从指定字符串查找第一次遇到的字符串返回下标
 10. str.substring(5,10):表示从下标5(包括)取到10(不包括)并返回
 
+```
+面试题：使用两种方法实现将字符串"12345"转换为整数12345并打印
+
+方式一:使用Interger类中的parseInt方法进行转换即可
+String str2 = new String("12345");
+int ia = Interger.parseInt(str2);
+
+方式二:取出字符串中的每个字符并转换为整数数据再合并起来
+'1'-48 => 1  '2'-48 =>2  
+'1'-'0'=>1   '2'-'0' =>2  '3'-'0'=>3
+int res = 0;
+for (int i = 0; i<str2.length() ;i++){
+    res = res*10 + (str2.charAt(i)-'0');
+}
+```
+
 ### StringBuilder类和StringBuffer类(重点)
 1. 基本概念：由于String类型描述的字符串内容是个常量不可更改，当程序出现大量类似的字符串时需要单独存放从而浪费内存空间，若希望使用一块内存空间进行存储并且可以修改字符串内容，则应该使用StringBuilder类和StringBuffer类
 2. 其中StringBuffer类从jdk1.0开始存在，该类支持线程安全，因此访问的效率比较低
 3. 其中StringBuilder类从jdk1.5开始存在，该类不支持线程安全，访问的效率比较高
 4. 常用方法
+
 ```
 1.public StringBuffer append(String s)
 将指定的字符串追加到此字符序列。
