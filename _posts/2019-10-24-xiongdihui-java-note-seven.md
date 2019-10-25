@@ -55,6 +55,7 @@ for (int i = 0; i<str2.length() ;i++){
 2. 其中StringBuffer类从jdk1.0开始存在，该类支持线程安全，因此访问的效率比较低
 3. 其中StringBuilder类从jdk1.5开始存在，该类不支持线程安全，访问的效率比较高
 4. 常用方法
+
     ```
 1.public StringBuffer append(String s)
 将指定的字符串追加到此字符序列。
