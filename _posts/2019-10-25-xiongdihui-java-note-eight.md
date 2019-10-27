@@ -9,8 +9,8 @@ tags: Java note
 * content
 {:toc}
 
-1. Java深入篇--核心类库--第3天
-2. Java深入篇--核心类库--第4天
+1. Java深入篇--核心类库--第3、4天
+
 
 
 
