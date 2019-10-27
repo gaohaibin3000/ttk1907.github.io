@@ -104,6 +104,7 @@ List<String> lt1 = new LinkedList<String>();--只能放入String类型，取出�
             3. void remove():用于删除访问到的最后一个元素
             4. 注意：当使用迭代器迭代集合中的所有元素时，若使用集合中的remove方法来删除元素，则会出现ConcurrentModificationException并发修改异常，以后的开发中应该使用迭代器的remove方法来删除元素。
     3. 使用迭代器来访问集合中的所有元素
+
     ```
 3.使用迭代器来访问集合中的所有元素[one, two]
         3.1 调用成员方法获取迭代器对象
@@ -121,6 +122,7 @@ while(it.hasNext()) {
             System.out.println("获取到的元素是：" + it.next());
         }
     ```
+
 
 3. 增强版的for循环(for each结构)
     1. 语法格式
