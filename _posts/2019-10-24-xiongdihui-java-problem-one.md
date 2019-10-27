@@ -21,11 +21,11 @@ tags: Java
 
 
 # Java5种常见异常
-1. java.lang.NullPointerException：空指针异常
-2. java.lang.ArithmeticException：数学运算异常
-3. java.lang.ArrayIndexOutOfBoundsException：数组下标越界
-4. java.lang.IllegalAccessException：没有访问权限
-5. java.lang.ClassCastException：类型转换异常
+1. ArithmeticException - 算术异常
+2. ArrayIndexOutOfBoundsException - 数组下标越界异常
+3. NullPointerException - 空指针异常
+4. ClassCastException - 类型转换异常
+5. NumberFormatException - 数字格式异常
 
 
 
