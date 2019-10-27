@@ -107,19 +107,19 @@ List<String> lt1 = new LinkedList<String>();--只能放入String类型，取出�
 
     ```
 3.使用迭代器来访问集合中的所有元素[one, two]
-        3.1 调用成员方法获取迭代器对象
-        Iterator<String> it = s1.iterator();
+    3.1 调用成员方法获取迭代器对象
+    Iterator<String> it = s1.iterator();
+    
+    3.2 使用迭代器对象获取每个元素并打印
+    判断该迭代器指向的集合中是否拥有可以迭代/遍历的元素
+    System.out.println(it.hasNext()); // true
 
-        3.2 使用迭代器对象获取每个元素并打印
-        判断该迭代器指向的集合中是否拥有可以迭代/遍历的元素
-        System.out.println(it.hasNext()); // true
-
-        获取一个元素并指向下一个位置
-        与toString方法相比取出的是单个元素，更加灵活
-        System.out.println("获取到的元素是：" + it.next()); //one 
+    获取一个元素并指向下一个位置
+    与toString方法相比取出的是单个元素，更加灵活
+    System.out.println("获取到的元素是：" + it.next()); //one 
 
 while(it.hasNext()) {
-            System.out.println("获取到的元素是：" + it.next());
+    System.out.println("获取到的元素是：" + it.next());
         }
     ```
 
